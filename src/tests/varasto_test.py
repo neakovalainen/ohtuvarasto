@@ -33,7 +33,7 @@ class TestVarasto(unittest.TestCase):
     def test_lisaa_varastoon_liian_paljon(self):
         self.varasto.lisaa_varastoon(self.varasto.paljonko_mahtuu() + 1)
         self.assertAlmostEqual(self.varasto.paljonko_mahtuu(), 0)
-        
+
     def test_lisays_lisaa_pienentaa_vapaata_tilaa(self):
         self.varasto.lisaa_varastoon(8)
 
