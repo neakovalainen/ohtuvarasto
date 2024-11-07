@@ -1,11 +1,15 @@
 [FORMAT]
-max-line-length=80
+
+max-line-length = 80
 
 [REFACTORING]
-max-nested-blocks=2
+
+max-nested-blocks = 2
 
 [DESIGN]
-max-statements=15
+
+max-statements = 15
 
 [BASIC]
-docstring-min-length=3
+
+docstring-min-length = 3
